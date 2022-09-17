@@ -1,9 +1,7 @@
 import { useSnackbar } from "react-simple-snackbar";
-import { logout } from "../api";
-import useStore from "../store";
-import Button from "./Button";
-import Questionnare from "../pages/Questionnare.js";
 import Dashboard from "../pages/Dashboard.js";
+import Questionnare from "../pages/Questionnare.js";
+import useStore from "../store";
 
 function Authenticated() {
   // eslint-disable-next-line no-unused-vars
